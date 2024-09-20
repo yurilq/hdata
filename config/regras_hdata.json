@@ -1,0 +1,23 @@
+{
+    "ajustar_valores": {
+        "coluna": "Valor da Nota Fiscal (Valor Bruto)",
+        "operacao": "multiplicacao",
+        "valor": 1.10
+    },
+    "formatar_datas": {
+        "colunas": [
+            "Data Vencimento",
+            "Mês de Referência/competência da prestação de serviço"
+        ],
+        "formato": "%d/%m/%Y"
+    },
+    "validar_situacao": {
+        "coluna": "Situação",
+        "valores_validos": ["PAGO", "PENDENTE", "CANCELADO"]
+    },
+    "calcular_impostos": {
+        "coluna_origem": "Valor Total",
+        "coluna_destino": "Imposto (5%)",
+        "taxa": 0.05
+    }
+}

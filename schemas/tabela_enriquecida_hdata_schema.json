@@ -1,0 +1,17 @@
+[
+  {
+    "name": "ID",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Valor_Total",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "Imposto_5",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  }
+]
